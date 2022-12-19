@@ -612,8 +612,9 @@ background-size: 10px 10px;
   color: #fff;
 }
 .contact .title::after {
-  content: "Get In Touch";
+  content: "Information";
 }
+
 .contact .contact-content .column {
   width: calc(50% - 30px);
 }
