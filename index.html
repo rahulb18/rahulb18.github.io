@@ -111,16 +111,16 @@
             <div class="skills-content">
                 <div class="column left">
 
-                    <div class="skills-images" id="java_img">
+                    <div class="skills-images" id="node_img" >
                         <img src="./images/Node.js_logoo.svg" alt="javaSvg">
                     </div>
 
-                    <div class="skills-images" id="hibernate_img">
+                    <div class="skills-images" id="express_img">
                         <img src="./images/express-facebook-share.png" alt="">
                     </div>
 
                     
-                    <div class="skills-images">
+                    <div class="skills-images" id="mongo_img">
                         <img src="./images/mongodb.webp" alt="">
                     </div>
 
@@ -131,7 +131,7 @@
 
                 </div>
                 <div class="column right">
-                    <div class="skills-images" id="spring_img">
+                    <div class="skills-images" id="react_img">
                         <img src="./images/React-icon.svg.png" alt="">
                     </div>
 
@@ -162,6 +162,7 @@
                         <img src="images/202638028-ab845649-ffcf-46f9-8170-820ca35141b0.jpg" alt="">
                         <div class="text">KFC Clone</div>
                         <p>This was a collaborative construct week project at Masai School. Goal behind the project was to create a full stack clone of the KFC website as close as possible to the original. This project was built by a team of 4 developers in 5 Days.</p>
+                        <br>
                         <p class="techStack" style="color:#ca0951;">Tech Stack Used: React, Chakra-UI, nodeJS, MongoDB</p>
                         <div class="repo-links">
                             <div class="repo-div">
@@ -178,7 +179,10 @@
                         <img src="images/getharvest.png" alt="">
                         <div class="text">Get Harvest Clone</div>
                         <p>This was a Personal construct week project at Masai School. Goal behind the project was to create a full stack clone of the Get Harvest website as close as possible to the original. This project was built by a me in 5 Days.</p>
+                        <br>
+                        <br>
                         <p class="techStack" style="color:#ca0951;">Tech Stack Used: React, Chakra-UI</p>
+                        <br>
                         <div class="repo-links">
                             <div class="repo-div">
                                 <span>  <a href="https://github.com/rahulb18/Get-Harvest-Clone" target="_blank"> Git Repo </a></span>
@@ -194,6 +198,7 @@
                         <img src="images/Screenshot (174).png" alt="">
                         <div class="text">PharmEasy Clone</div>
                         <p>Clone of PharmEasy website, which offers medicines and health products across various categories through its retail partners which are spread across the country. The tech stack used are HTML, CSS and JavaScript.</p>
+                        <br>
                         <p class="techStack" style="color:#ca0951;">Tech Stack Used: Html, CSS, JavaScript</p>
                         <div class="repo-links">
                             <div class="repo-div">
@@ -211,7 +216,10 @@
                     <img src="images/Screenshot (175).png" alt="">
                     <div class="text">Myntra Clone</div>
                     <p>Online Shopping Site for Fashion & Lifestyle in India. India's Fashion Expert brings you a variety of footwear, Clothing, Accessories and lifestyle products ... </p>
+                    <br>
+                    <br>
                     <p class="techStack" style="color:#ca0951;">TechStack Used: Html, CSS, JavaScript, BootStrap, MediaQuery </p>
+                    <br>
                     <div class="repo-links">
                         <div class="repo-div">
                             <span>  <a href="https://github.com/praveen3411/Myntra-Clone" target="_blank"> Git Repo </a></span>
@@ -228,37 +236,43 @@
         </div>
     </section>
 
-    <!-- contact section start -->
-    <section class="contact" id="contact" background>
-        <div class="max-width">
-            <h2 class="title">GitHub Stats</h2>
-            <p align="center">
-                <img align="center"  src="https://github-readme-streak-stats.herokuapp.com/?user=rahulb18&theme=dark" />
-                <br/>
-                <br/>
-                <img align="center" src="https://github-readme-stats.vercel.app/api?username=rahulb18&show_icons=true&locale=en&theme=dark"/>
-            </p>
-            </br>
-            </br>
-            <div class="calendar">
-                <!-- Loading stuff -->
-                Loading the data just for you.
-            </div>
-            <script>
-                GitHubCalendar(".calendar", "rahulb18");
-            
-                // or enable responsive functionality:
-                GitHubCalendar(".calendar", "rahulb18", { responsive: true });
-            
-                // Use a proxy
-                GitHubCalendar(".calendar", "rahulb18", {
-                   proxy (rahulb18) {
-                     return fetch(`https://your-proxy.com/github?user=${rahulb18}`)
-                   }
-                }).then(r => r.text())
-            </script>
+    <section >
+        <h1 class="title">Github Calendar</h1>
+        <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
+        </div>
+        <script>
+            GitHubCalendar(".calendar", "rahulb18");
+        
+            // or enable responsive functionality:
+            GitHubCalendar(".calendar", "rahulb18", { responsive: true });
+        
+            // Use a proxy
+            GitHubCalendar(".calendar", "rahulb18", {
+               proxy (username) {
+                 return fetch(`https://your-proxy.com/github?user=${rahulb18}`)
+               }
+            }).then(r => r.text())
+        </script>
+        <br>
+        <br>
+        <br>
+        <h1 class="title">Github Stats</h1>
+        <div class="github_stats">
+            <a href="https://github.com/rahulb18/github-readme-activity-graph"><img alt="Rahul Badade's Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=rahulb18&bg_color=00000&color=ba68c8&line=ba68c8&point=000000&hide_border=true" /></a>
+            <br>
+            <br>
+            <br>
+            <p><img src="https://github-readme-stats.vercel.app/api?username=rahulb18&show_icons=true&locale=en&hide_border=true&bg_color=0000&line=ba68c8&icon_color=ba68c8&title_color=ba68c8&text_bold=false&include_all_commits=false" alt="Rahul Badade" /></p>
+            <br>
+            <br>
+            <br>
+            <p><img src="https://github-readme-streak-stats.herokuapp.com/?user=rahulb18&hide_border=true&background=0000&&currStreakLabel=ba68c8&ring=ba68c8&fire=ba68c8&stroke=ba68c8&border=ba68c8" alt="Rahul Badade" /></p>
+    
         </div>
     </section>
+
     <!-- contact section start -->
     <section class="contact" id="contact">
         <div class="max-width">

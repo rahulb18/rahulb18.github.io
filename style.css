@@ -328,6 +328,7 @@ background-size: 10px 10px;
 .project .title::after {
   background: #111;
   content: "What I Provide";
+  color: #BC4123;
 }
 .services .serv-content .card {
   width: calc(33% - 20px);
@@ -351,7 +352,7 @@ background-size: 10px 10px;
 }
 .services .serv-content .card i {
   font-size: 50px;
-  color: #ba68c8;
+  color: #BC4123;
   transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i {
@@ -391,24 +392,29 @@ background-size: 10px 10px;
   width: 130px;
 }
 
-#java_img img{
-  margin-top: 30px;
-  height: 80px;
-  width: 150px;
+#node_img img{
+  margin-top: 10px;
+  height: 170px;
+  width: 170px;
 }
 
 
 
-#spring_img img{
-  margin:auto;
-  /* height: 255px; */
-  width: 180px;
+#react_img img{
+  /* margin:auto; */
+  margin-top: 15px;
+  height: 110px;
+  width: 130px;
 
 }
 
-#hibernate_img{
+#express_img{
   
-  size:300px;
+  size:250px;
+}
+#mongo_img{
+ 
+  
 }
 
 #github_img{
@@ -416,6 +422,7 @@ background-size: 10px 10px;
 }
 .skills .title::after {
   content: "What I Know";
+  color: #BC4123;
 }
 
 /* skills right column */
@@ -439,18 +446,18 @@ background-size: 10px 10px;
 }
 .skills .skills-content .left a {
   display: inline-block;
-  background: #ba68c8;
+  background: #BC4123;
   color: #fff;
   font-size: 18px;
   font-weight: 500;
   padding: 8px 16px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 1px solid #ba68c8;
+  border: 1px solid #BC4123;
   transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover {
-  color: #ba68c8;
+  color: #BC4123;
   background: none;
 }
 .skills .skills-content .right .bars {
@@ -478,7 +485,7 @@ background-size: 10px 10px;
   height: 100%;
   left: 0;
   top: 0;
-  background: #ba68c8;
+  background: #BC4123;
 }
 .skills-content .right .html::before {
   width: 90%;
@@ -499,6 +506,7 @@ background-size: 10px 10px;
 /* project section styling */
 .project .title::after {
   content: "See My Work";
+  color: #BC4123;
 }
 .project .carousel .card {
   background: #222;
@@ -542,7 +550,7 @@ background-size: 10px 10px;
 .repo-div {
   display: flex;
   width: 35%;
-  border: 1px solid white;
+  border: solid white;
   justify-content: center;
   align-items: center;
 }
@@ -550,7 +558,7 @@ background-size: 10px 10px;
 .demo-div {
   display: flex;
   width: 35%;
-  border: 1px solid white;
+  border: solid white;
   justify-content: center;
   align-items: center;
 }
@@ -589,7 +597,7 @@ background-size: 10px 10px;
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid #ba68c8 !important;
+  border: 2px solid #BC4123 !important;
   transition: all 0.3s ease;
 }
 .owl-dot.active {
@@ -598,7 +606,7 @@ background-size: 10px 10px;
 }
 .owl-dot.active,
 .owl-dot:hover {
-  background: #ba68c8 !important;
+  background: #BC4123 !important;
 }
 .skills-images {
   width: 120px;
@@ -608,11 +616,12 @@ background-size: 10px 10px;
 /* contact section styling */
 
 .material-symbols-outlined{
-  background-color: #ba68c8;
+  background-color: #BC4123;
   color: #fff;
 }
 .contact .title::after {
   content: "Information";
+  color: #BC4123;
 }
 
 .contact .contact-content .column {
@@ -639,7 +648,7 @@ background-size: 10px 10px;
 }
 .contact .contact-content .row i {
   font-size: 25px;
-  color: #ba68c8;
+  color: #BC4123;
 }
 .contact .contact-content .info .head {
   font-weight: 500;
@@ -1061,7 +1070,7 @@ text.ContributionCalendar-label {
 /* GithubStats */
 
 .github_stats{
-  width:90%;
+  width:55%;
   margin: auto;
   display: grid;
   justify-content: center;
